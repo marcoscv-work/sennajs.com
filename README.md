@@ -44,7 +44,7 @@ gulp
 * Compliles source files and pushes build folder to a new branch called 'WeDeploy'
 ```sh
 gulp deploy
-``
+```
 
 ## License
 

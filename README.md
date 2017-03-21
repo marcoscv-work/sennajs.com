@@ -1,6 +1,6 @@
 # [sennajs.wedeploy.io](http://sennajs.wedeploy.io) [![Built with Electric](https://img.shields.io/badge/built%20with-electric-f3c302.svg?style=flat)](http://electricjs.com)
 
-**This project is using an outdated version of Electric**
+**WARNING: This project is currently using an outdated version of Electric**
 
 This repository contains the source code of the website [sennajs.wedeploy.io](http://sennajs.wedeploy.io), the new site in development for [sennajs.com](sennajs.com). If you're looking for the source code of the library, check the official [Senna.js repository](https://github.com/liferay/senna.js).
 

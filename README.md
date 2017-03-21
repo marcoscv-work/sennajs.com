@@ -20,7 +20,7 @@ node -v && npm -v
 
 3. Clone repo
 ```sh
-git clone 
+git clone https://github.com/jonnilundy/sennajs.com.git
 ```
 
 4. Go to project

@@ -118,23 +118,23 @@ updates:
  * @param page
  */
 {template .render}
-	{call main.render data="all"}
-		{param content kind="html"}
-			<div class="updates">
-				<header class="header">
-					<div class="container">
-						<h1 class="header-title">Updates</h1>
-						<h1 class="header-subtitle">Check out what's new bellow.</h1>
-					</div>
-				</header>
+  {call main.render data="all"}
+    {param content kind="html"}
+      <div class="updates">
+        <header class="header">
+          <div class="container">
+            <h1 class="header-title">Updates</h1>
+            <h1 class="header-subtitle">Check out what's new bellow.</h1>
+          </div>
+        </header>
 
-				{call ElectricUpdates.render}
-					{param updates: $page.updates /}
+        {call ElectricUpdates.render}
+          {param updates: $page.updates /}
           {param featureVariant: 'sennajs' /}
-				{/call}
-			</div>
-		{/param}
-	{/call}
+        {/call}
+      </div>
+    {/param}
+  {/call}
 {/template}
 
 

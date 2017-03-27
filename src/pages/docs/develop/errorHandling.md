@@ -28,7 +28,7 @@ It's important to understand how to handle errors when using Senna.js. The three
 
 With just one simple funciton, you can control how your app handles those errors.
 
-{literal}
+
 ```
 <script>
   var app = new senna.App();
@@ -54,6 +54,6 @@ With just one simple funciton, you can control how your app handles those errors
   });
 </script>
 ```
-{/literal}
+
 
 </article>

@@ -36,7 +36,7 @@ We want you to know how Senna works so that you can fully trust it to empower yo
 
 You can also jump to [Controlling Surfaces](/docs/fullyFunctional/controllingSurfaces.html) to learn more about how to customize screens on your app.
 
-{literal}
+
 ```
 Navigate to [/examples/mysite/pages/page1.html]
 Create screen for [/examples/mysite/pages/page1.html]
@@ -48,7 +48,7 @@ Screen [screen_1408572719183] flip
 Screen [screen_1408572719183] activate
 Navigation done
 ```
-{/literal}
+
 
 </article>
 

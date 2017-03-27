@@ -1,22 +1,23 @@
-{namespace Topbar}
+{namespace topbar}
+
+/**
+ * @param? elementClasses
+ * @param site
+ */
+{template .render}
+	<nav class="topbar topbar-light {$elementClasses ? ' ' + $elementClasses : ''}">
+		{call .logo data="all" /}
+		{call .menu data="all" /}
+	</nav>
+{/template}
 
 /**
  * @param site
  */
-{template .render}
-		<nav class="topbar">
-			{call .logo data="all" /}
-			{call .menu data="all" /}
-		</nav>
-{/template}
-
-/**
- *
- */
 {template .logo}
 	<div class="topbar-logo">
 		<a class="topbar-logo-link" href="/">
-			<span class="name">Senna<span>.js</span></span>
+			<span class="name">{$site.title}<span>.js</span></span>
 			<span class="by">by Liferay</span>
 		</a>
 	</div>

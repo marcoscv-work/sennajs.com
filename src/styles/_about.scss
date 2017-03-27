@@ -1,26 +1,25 @@
-.grey-background {
-	background: rgba($primary, 0.02);
+.about {
+	background-color: transparent;
+	text-align: center;
+	padding: 150px 0 100px;
+	z-index: 301;
 }
 
-.about {
-	text-align: center;
-	padding: 150px 0 0;
-	z-index: 301;
+.grey-background {
+	background: rgba($primary, 0.02);
 }
 
 .about-title {
 	border-bottom: 10px solid $accent;
 	color: $primary;
 	display: inline;
-	font-family: $font-family-secondary-bold;
 	font-size: 55px;
-	text-transform: uppercase;
 	line-height: 80px;
+	text-transform: uppercase;
 }
 
 .about-description {
 	color: rgba($primary, .6);
-	font-family: $font-family-secondary;
 	font-size: 20px;
 	line-height: 36px;
 	margin: 50px 0 0;
@@ -28,10 +27,10 @@
 	a {
 		color: rgba(255,255,255, .85);
 		font-decoration: $accent;
-	}
 
-	a:hover {
-		color: rgba(255,255,255, .5);
+		&:hover {
+			color: rgba(255,255,255, .5);
+		}
 	}
 
 	p {

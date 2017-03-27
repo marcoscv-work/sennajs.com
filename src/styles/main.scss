@@ -1,44 +1,54 @@
-$accent: #ff4040;
+$accent: #FF4040;
+$neutral: #5A5F63;
 
-$color-yellow: #F5D227;
-$color-yellow-dark: #ffb700;
-$color-blue: #3930C6;
+$baseSize: 32px;
 
-$color-teal: #07B8BE;
-$color-emerald: #07BE7B;
-$color-orange: #ff6e00;
-$color-green: #33B114;
-$color-reds: #E0464C;
-$color-orange: #EE7519;
-$color-purple: #783FD6;
+@import "marble";
 
+// Root
+@import "templates/root";
 
-@import "node_modules/westyle/src/westyle";
-
-// General
-
-@import "topbar";
-@import "senna";
-
-// Home
-@import "header";
-@import "about";
-@import "features";
-@import "highlights";
-@import "initializing";
-@import "footer";
-@import "senna";
+// Landing
+@import "templates/landing";
 
 // Docs
+@import "templates/docs";
 
-@import "autocomplete";
-@import "docs";
-@import "guide";
-@import "search";
-@import "topics";
-@import "senna";
+// Search
+@import "templates/search";
+
+// Blog
+@import "templates/blog";
+
+// Tutorial
+@import "templates/tutorial";
 
 // Updates
-
 @import "updates";
-@import "senna";
+
+// Tutorial
+@import "about";
+
+// Highlight
+@import "highlight";
+
+// Features
+@import "features";
+
+// Header
+@import "header";
+
+h4 {
+	font-size: $baseSize * 1.5;
+	font-weight: 800;
+	margin: $baseSize 0;
+	text-transform: uppercase;
+}
+
+.initializing {
+	padding-bottom: 80px;
+}
+
+.blockquote-danger {
+	border-color: $accent;
+}

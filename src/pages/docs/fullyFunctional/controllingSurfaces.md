@@ -28,7 +28,7 @@ Once you have Senna fully running (see [Getting Started](/docs/intro/gettingStar
 
 In order to limit your whole app from routing through `senna.HTMLScreen`, you can add `<link rel="senna-route">` to the `head` of your document. This will tell Senna to **only** route your specified paths through `senna.HTMLScreen`. Your document would look like this:
 
-{literal}
+
 ```
 <!doctype html>
 <html>
@@ -49,16 +49,16 @@ In order to limit your whole app from routing through `senna.HTMLScreen`, you ca
 </body>
 </html>
 ```
-{/literal}
+
 
 You can also use <a href="https://en.wikipedia.org/wiki/Regular_expression" target="_blank">RegEx</a> to select multiple paths with one string.
 
-{literal}
+
 ```
 <link rel="senna-route" href="examplePage1.html" type="senna.HtmlScreen">
 <link rel="senna-route" href="regex:examplePage[1-9].html" type="senna.HtmlScreen">
 ```
-{/literal}
+
 
 </article>
 

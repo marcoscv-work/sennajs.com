@@ -1,4 +1,4 @@
 {
-    "id": "host",
-    "type": "wedeploy/hosting:latest"
+	"id": "hosting",
+	"type": "wedeploy/hosting"
 }

@@ -7,8 +7,9 @@
 {template .render}
 	<div class="{$elementClasses ?: 'main'}">
 		<main class="content">
-			{call Topbar.render data="all" /}
-
+			{call topbar.render data="all"}
+				{param elementClasses: 'topbar-fixed' /}
+			{/call}
 			{$content}
 		</main>
 	</div>

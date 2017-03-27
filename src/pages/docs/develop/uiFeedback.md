@@ -16,7 +16,7 @@ weight: 1
 
 Senna comes with working UI feedback straight out of the box. All you have to do is add `<div class="senn-loading-bar"></div>` to the top of your `<body>`.
 
-{literal}
+
 ```
 <!doctype html>
 <html>
@@ -33,7 +33,7 @@ Senna comes with working UI feedback straight out of the box. All you have to do
   </body>
 </html>
 ```
-{/literal} 
+ 
 
 </article>
 
@@ -43,7 +43,7 @@ Senna comes with working UI feedback straight out of the box. All you have to do
 
 Now that you have added the default UI Feedback, you can edit the style of the animation inside of `senna/src/senna.css`.
 
-{literal}
+
 ```
 .senna-loading .senna-loading-bar {
   animation: shift-rightwards 1s ease-in-out infinite;
@@ -66,6 +66,6 @@ Now that you have added the default UI Feedback, you can edit the style of the a
   z-index: 10000;
 }
 ```
-{/literal} 
+ 
 
 </article>

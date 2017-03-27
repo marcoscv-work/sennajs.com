@@ -17,7 +17,7 @@ It's easy to create your own screen whenever you want.
 Let's say for example that you need a screen that injects the content "Header changed" and "Body changed" on the respective surface elements when you navigate to the path `/foo`.
 
 
-{literal}
+
 ```
 function FooScreen() {
   FooScreen.base(this, 'constructor');
@@ -35,11 +35,11 @@ FooScreen.prototype.getSurfaceContent = function(surfaceId) {
   }
 };
 ```
-{/literal}
 
 
-{literal}
-```
+
+
+```html
 <!doctype html>
 <html>
 <head>
@@ -67,6 +67,6 @@ FooScreen.prototype.getSurfaceContent = function(surfaceId) {
 </body>
 </html>
 ```
-{/literal}
+
 
 </article>

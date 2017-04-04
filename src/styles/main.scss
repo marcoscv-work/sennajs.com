@@ -41,6 +41,10 @@ $baseSize: 32px;
 // Header
 @import "header";
 
+// Sidebar-search
+@import "sidebar-search";
+
+
 h4 {
 	font-size: $baseSize * 1.5;
 	font-weight: 800;
